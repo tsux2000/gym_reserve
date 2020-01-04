@@ -1,7 +1,7 @@
 import pandas as pd
 
-# エンコード（windowsなら'shift_jis'、macやlinuxは'utf-8'）
-ENCODING = 'shift_jis'
+# エンコード うまくいかなければ'shift_jis'を試してみる。
+ENCODING = 'utf-8'
 
 # 予約日時
 DATETIME = pd.read_csv('./datetime.csv', encoding=ENCODING)
