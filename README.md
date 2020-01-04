@@ -6,8 +6,7 @@
 
 このリポジトリをダウンロードして、ホームディレクトリにフォルダ名 `gym_reserve` で展開してください。
 
-Chromeのバージョンを更新・確認し、それに合わせたchromedriverをダウンロード、
-PATHをとおしてください。
+Chromeのバージョンを更新したのち、確認してください。
 
 初回のみ、以下を1行1行コマンドプロンプトから実行してください。
 
@@ -15,7 +14,7 @@ PATHをとおしてください。
 cd %userprofile%\gym_reserve
 py -m venv venv
 call venv\Scripts\activate.bat
-pip install selenium pandas
+pip install selenium pandas chrome-driver==（バージョン番号）
 deactivate
 ```
 
