@@ -1,3 +1,4 @@
+import chrome_driver
 from config import *
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
